@@ -46,7 +46,7 @@
 <form align = "center" action = "registration-servlet" method="post">
     <div class="mb-3">
         <label for="exampleInputEmail1">Email address</label>
-        <input class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="registration">
+        <input class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="registrationMail">
     </div>
     <div class="mb-3">
         <label for="exampleInputMessage">Your Message</label>

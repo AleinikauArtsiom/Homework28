@@ -13,7 +13,7 @@ public class Registration extends HttpServlet {
         String registrationMessage = req.getParameter("registrationMessage");
         String registrationMail = req.getParameter("registrationMail");
 
-        if( registrationMessage.isBlank()||registrationMail.isBlank() ){
+        if ( registrationMessage.isBlank() || registrationMail.isBlank() ) {
             System.out.println("do not leave a blank field");
             req.getRequestDispatcher("/index.jsp").forward(req,resp);
         }
