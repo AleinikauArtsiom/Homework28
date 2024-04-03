@@ -21,6 +21,6 @@ public class Registration extends HttpServlet {
             req.setAttribute("registrationMessage", registrationMessage);
             req.getRequestDispatcher("/sendMessage.jsp").forward(req,resp);
             }
-
+//проверка
     }
 }
