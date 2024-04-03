@@ -22,5 +22,6 @@ public class Registration extends HttpServlet {
             req.getRequestDispatcher("/sendMessage.jsp").forward(req,resp);
             }
 //проверка
+        //gjjfthrf 2
     }
 }
